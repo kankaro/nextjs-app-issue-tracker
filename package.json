@@ -3,6 +3,10 @@
     "description": "A collaborative tool for managing and maintaining a lists of issues to address.",
     "version": "0.1.0",
     "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/kankaro/nextjs-app-issue-tracker.git"
+    },
     "engines": {
         "npm": ">=10.*",
         "node": ">=20.x"
@@ -12,6 +16,7 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
+        "lint:fix": "next lint --fix",
         "css:lint": "stylelint \"**/*.css\"",
         "css:lint-fix": "stylelint \"**/*.css\" --fix",
         "prettify": "prettier --write .",
